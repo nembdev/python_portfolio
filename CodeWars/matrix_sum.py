@@ -1,4 +1,4 @@
-#sum all values in a given matrix
+# sum all values in a given matrix
 def matrix_sum(matrix):
     total = 0
     for row in range(len(matrix)):

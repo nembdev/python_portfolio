@@ -10,4 +10,4 @@ Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
 # if person is a friend i.e len == 4
 # store in list
 def friend(x):
-    return [person for person in x if len(person) == 4 ]
+    return [person for person in x if len(person) == 4]
