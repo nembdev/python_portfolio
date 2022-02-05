@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup as bs
 import random
 
+guide = "https://www.freecodecamp.org/news/scraping-wikipedia-articles-with-python/"
+
 # wiki page you want to start on
 start_point = "https://en.wikipedia.org/wiki/Portal:Society"  # we_live_in_a_society.jpg
 
