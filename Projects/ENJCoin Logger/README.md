@@ -1,6 +1,8 @@
 # A Enj Price Logger
 Grabs the current pricing data of a ENJ from coinmarketcap
+
 Cleans and converts the json into a pandas dataframe
+
 Saves/Appends the data to a new or existing csv
 
 
