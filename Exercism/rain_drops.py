@@ -1,5 +1,5 @@
-#takes a number
-#returns a string based on factors of 3,5,7 or returns the num
+# takes a number
+# returns a string based on factors of 3,5,7 or returns the num
 def gen_rain_drops(num):
     rain = ""
 
@@ -14,6 +14,7 @@ def gen_rain_drops(num):
         print(num)
     else:
         print(rain)
+
 
 gen_rain_drops(28)
 gen_rain_drops(30)

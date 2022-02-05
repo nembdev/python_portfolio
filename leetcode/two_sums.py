@@ -6,7 +6,7 @@ class Solution:
         # Enumerate() method adds a counter to an iterable and returns it in a form of enumerating object
         # index, var
         for index, num in enumerate(nums):
-            #find the 2nd number
+            # find the 2nd number
             remainder = target - num
             # did we find the remainder index yet?
             # if not store the index of the remainder
