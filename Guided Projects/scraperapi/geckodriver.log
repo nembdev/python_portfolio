@@ -1,0 +1,121 @@
+1635200316915	geckodriver	INFO	Listening on 127.0.0.1:43319
+1635200316920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59341" "-no-remote" "-profile" "/tmp/rust_mozprofileFroffe"
+1635200317526	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFroffe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59341/devtools/browser/ce3faec6-e975-450c-9f9f-362d13af390f
+1635200319268	Marionette	INFO	Listening on port 38269
+1635200319350	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1635200331589	Marionette	INFO	Stopped listening on port 38269
+1635200331715	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1635200950246	geckodriver	INFO	Listening on 127.0.0.1:33115
+1635200950260	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54727" "-no-remote" "-profile" "/tmp/rust_mozprofile0nCHAO"
+1635200951613	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0nCHAO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54727/devtools/browser/283968cf-b41c-464f-9543-f13b24586d80
+1635200957187	Marionette	INFO	Listening on port 44155
+1635200957235	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1635201272164	Marionette	INFO	Stopped listening on port 44155
+1635201272211	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1635201313769	geckodriver	INFO	Listening on 127.0.0.1:44863
+1635201313781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51567" "-no-remote" "-profile" "/tmp/rust_mozprofile5N52ZO"
+1635201315130	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5N52ZO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51567/devtools/browser/7659e919-fc11-4b9a-a141-fa766d03edbd
+1635201319075	Marionette	INFO	Listening on port 33019
+1635201319132	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1635201331559	Marionette	INFO	Stopped listening on port 33019
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635201331684	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1635201336346	geckodriver	INFO	Listening on 127.0.0.1:34747
+1635201336351	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44321" "-no-remote" "-profile" "/tmp/rust_mozprofileFlazws"
+1635201336932	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFlazws/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44321/devtools/browser/77a1817b-e33a-4245-bb79-78ddbb2bf6d5
+1635201338718	Marionette	INFO	Listening on port 41783
+1635201338770	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1635201346795	Marionette	INFO	Stopped listening on port 41783
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635201346914	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1635201349729	geckodriver	INFO	Listening on 127.0.0.1:47767
+1635201349733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52121" "-no-remote" "-profile" "/tmp/rust_mozprofilecRWeeB"
+1635201350328	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecRWeeB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52121/devtools/browser/95b00604-c9ef-4f3e-876f-442ba75dbc20
+1635201352110	Marionette	INFO	Listening on port 32889
+1635201352151	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1635201399181	Marionette	INFO	Stopped listening on port 32889
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635201399329	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1635201856642	geckodriver	INFO	Listening on 127.0.0.1:38889
+1635201856647	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54901" "-no-remote" "-profile" "/tmp/rust_mozprofileUqbL8A"
+1635201857258	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUqbL8A/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54901/devtools/browser/a25eb1d3-23fd-497e-a2aa-9648709007c5
+1635201859030	Marionette	INFO	Listening on port 33793
+1635201859068	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1635201873323	Marionette	INFO	Stopped listening on port 33793
+1635201873438	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:129
+1635201876001	geckodriver	INFO	Listening on 127.0.0.1:53283
+1635201876006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35789" "-no-remote" "-profile" "/tmp/rust_mozprofileSuZRiT"
+1635201876584	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSuZRiT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35789/devtools/browser/4d66167d-c0dc-4314-a1ef-f4ff65d56eb3
+1635201878368	Marionette	INFO	Listening on port 34479
+1635201878428	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.g2.com/assets/app_0caf476366786d05eb81.js, line 2: ChunkLoadError: Loading chunk 2316 failed.
+(error: https://www.g2.com/assets/chunk_2316_3d79235c89effdfb4cef.js)
+JavaScript error: https://www.g2.com/assets/app_0caf476366786d05eb81.js, line 2: ChunkLoadError: Loading chunk 2316 failed.
+(error: https://www.g2.com/assets/chunk_2316_3d79235c89effdfb4cef.js)
+JavaScript error: https://www.g2.com/assets/app_0caf476366786d05eb81.js, line 2: ChunkLoadError: Loading chunk 2316 failed.
+(error: https://www.g2.com/assets/chunk_2316_3d79235c89effdfb4cef.js)
+JavaScript error: https://www.g2.com/assets/app_0caf476366786d05eb81.js, line 2: ChunkLoadError: Loading chunk 2316 failed.
+(error: https://www.g2.com/assets/chunk_2316_3d79235c89effdfb4cef.js)
+JavaScript error: https://www.g2.com/assets/app_0caf476366786d05eb81.js, line 2: ChunkLoadError: Loading chunk 9049 failed.
+(error: https://www.g2.com/assets/chunk_9049_284aa76838ddcd409cc0.js)
+JavaScript error: https://www.g2.com/assets/app_0caf476366786d05eb81.js, line 2: ChunkLoadError: Loading chunk 9049 failed.
+(error: https://www.g2.com/assets/chunk_9049_284aa76838ddcd409cc0.js)
+JavaScript error: https://www.g2.com/assets/app_0caf476366786d05eb81.js, line 2: ChunkLoadError: Loading chunk 3515 failed.
+(error: https://www.g2.com/assets/chunk_3515_c38ac1a56207a2e189f6.js)
+JavaScript error: https://www.g2.com/assets/app_0caf476366786d05eb81.js, line 2: ChunkLoadError: Loading chunk 3515 failed.
+(error: https://www.g2.com/assets/chunk_3515_c38ac1a56207a2e189f6.js)
+JavaScript error: https://www.g2.com/assets/app_0caf476366786d05eb81.js, line 2: ChunkLoadError: Loading chunk 6155 failed.
+(error: https://www.g2.com/assets/chunk_6155_9064c9adac350ce6e332.js)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
