@@ -1,4 +1,7 @@
-# application
+'''
+Takes any csv file and generates a Principal Component Analysis
+Use: streamlit run fuel_app
+'''
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -26,12 +29,13 @@ if user_file is not None:
     pca_1 = settings_column.selectbox("First Principle Component", options=pca_cols, index=0)
 
     # removes value selecting above
-    pca_cols.remove(pca_1)
-    pca_2 = settings_column.selectbox("Second Principle Component", options=pca_cols)
+    # pca_cols.remove(pca_1)
+    # not working, workaround: starts on pca_2
+    pca_2 = settings_column.selectbox("Second Principle Component", options=pca_cols, index=1)
 
 
     # create a scatter plot
-    scatter_column.plotly_chart(px.scatter(data_frame=pca_data, x=pca_1, y=pca_2, color=categorical_variable, template="simple_white", height=800, hover_data = [categorical_variable_2]), use_container_width=True)
+    scatter_column.plotly_chart(px.scatter(data_frame=pca_data, x=pca_1, y=pca_2, color=categorical_variable, template="simple_white", height=800, hover_data = [categorical_variable_2]), height=800, use_container_width=True)
 else:
     # adds a header
     scatter_column.header("Please choose a file")
