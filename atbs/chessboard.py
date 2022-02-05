@@ -1,4 +1,4 @@
-# adjsut as needed
+# adjust as needed
 valid_board = {
     "2a": "wpawn",
     "2b": "wpawn",
@@ -76,7 +76,7 @@ def isValidChessBoard(valid, chessboard):
     takes 2 dictionaries containing chess board pieces and placements
     1 valid board
     1 board to test
-    returns wether or not the test board meets the valid board's conditions
+    returns whether or not the test board meets the valid board's conditions
     """
     valid_freq = {}
     valid_placement = {}

@@ -1,3 +1,7 @@
+"""
+Prints the below grid shifted to the right
+"""
+
 grid = [
     [".", ".", ".", ".", ".", "."],
     [".", "O", "O", ".", ".", "."],

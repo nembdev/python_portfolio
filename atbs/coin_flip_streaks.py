@@ -1,3 +1,8 @@
+"""
+Flips a coin x amount of times
+Checks to see if a streak  of H was found
+"""
+
 import random
 
 results = ""
