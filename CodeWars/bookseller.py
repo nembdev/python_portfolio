@@ -11,37 +11,39 @@ cat = ["A", "B"]
 
 
 def stock_list(listOfArt, listOfCat):
+
     # combined string to be returned
     final_string = ""
-    # holds the total for each category and the letter code
+
+    # letter_code: category amount
     cat_amount = {}
 
-    # check for type, either list or set
-    # if set, concert to list and sort
+    # input can be a list or a set
+    # if set, convert to list and sort
     if type(listOfArt) is set:
         listOfArt = sorted(list(listOfArt))
         # print(listOfArt)
 
-    # loop through each code
     for code in listOfArt:
-        # print(code)
-        # first index is the letter code
-        # if found increase cat_amount
-        if code[0] in listOfCat:
-            # key is the letter, amount is index 6:, converted to an int
-            # print(cat_amount)
+        # split code at space
+        cat_code = code.split(" ")[0]  # letter code
+        amount = code.split(" ")[1]  # amount
+
+        # first index is the letter code, increase cat_amount
+        if cat_code[0] in listOfCat:
             if code[0] in cat_amount.keys():
-                cat_amount[code[0]] += int(code[6:])
+                cat_amount[code[0]] += int(amount)
             else:
-                cat_amount[code[0]] = int(code[6:])
+                cat_amount[code[0]] = int(amount)
 
     for key in cat_amount:
         if final_string:
             final_string += f" - ({key} : {cat_amount[key]})"
         else:
-            final_string += f" ({key} : {cat_amount[key]})"
+            final_string += f"({key} : {cat_amount[key]})"
 
-    return final_string
+    # return final_string
+    print(final_string)
 
 
 stock_list(L1, cat)
