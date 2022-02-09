@@ -12,11 +12,12 @@ cat = ["A", "B"]
 
 def stock_list(listOfArt, listOfCat):
 
+    # empty check
+    if listOfArt == [] or listOfCat == []:
+        return ""
+
     # combined string to be returned
     final_string = ""
-
-    # letter_code: category amount
-    cat_amount = {}
 
     # input can be a list or a set
     # if set, convert to list and sort
@@ -25,27 +26,33 @@ def stock_list(listOfArt, listOfCat):
         # print(listOfArt)
     else:
         listOfArt = sorted(listOfArt)
-        listOfCat = sorted(listOfCat)
 
-    for i in range(len(listOfCat)):
-        if i < len(listOfArt):
-            code = listOfArt[i][0]
-            amount = listOfArt[i].split(" ")[1]
-            # print(i)
-            # print(code)
-            if code in listOfCat:
-                if code in cat_amount.keys():
-                    cat_amount[code] += int(amount)
-                else:
-                    cat_amount[code] = int(amount)
-        if listOfCat[i] not in cat_amount.keys():
-            cat_amount[listOfCat[i]] = 0
+    # holds found categories and amounts
+    matches = {}
 
-    for key in cat_amount:
-        if final_string:
-            final_string += f" - ({key} : {cat_amount[key]})"
+    # if code is found, store code and amount as k:v
+    for code in listOfArt:
+        if code[0] in listOfCat:
+            if code[0] in matches.keys():
+                matches[code[0]] += int(
+                    code.split(" ")[1]
+                )  # split at space, convert to int
+            else:
+                matches[code[0]] = int(code.split(" ")[1])
+
+    # append to final string, in order
+    for category in listOfCat:
+        if category in matches.keys():
+            # print(f"category {category} code{category} amount{matches[category]}")
+            if final_string:
+                final_string += f" - ({category} : {matches[category]})"
+            else:
+                final_string = f"({category} : {matches[category]})"
         else:
-            final_string += f"({key} : {cat_amount[key]})"
+            if final_string:
+                final_string += f" - ({category} : {0})"
+            else:
+                final_string = f"({category} : {0})"
 
-    # return final_string
-    print(final_string)
+    # print(final_string)
+    return final_string
