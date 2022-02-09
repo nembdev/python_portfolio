@@ -23,18 +23,23 @@ def stock_list(listOfArt, listOfCat):
     if type(listOfArt) is set:
         listOfArt = sorted(list(listOfArt))
         # print(listOfArt)
+    else:
+        listOfArt = sorted(listOfArt)
+        listOfCat = sorted(listOfCat)
 
-    for code in listOfArt:
-        # split code at space
-        cat_code = code.split(" ")[0]  # letter code
-        amount = code.split(" ")[1]  # amount
-
-        # first index is the letter code, increase cat_amount
-        if cat_code[0] in listOfCat:
-            if code[0] in cat_amount.keys():
-                cat_amount[code[0]] += int(amount)
-            else:
-                cat_amount[code[0]] = int(amount)
+    for i in range(len(listOfCat)):
+        if i < len(listOfArt):
+            code = listOfArt[i][0]
+            amount = listOfArt[i].split(" ")[1]
+            # print(i)
+            # print(code)
+            if code in listOfCat:
+                if code in cat_amount.keys():
+                    cat_amount[code] += int(amount)
+                else:
+                    cat_amount[code] = int(amount)
+        if listOfCat[i] not in cat_amount.keys():
+            cat_amount[listOfCat[i]] = 0
 
     for key in cat_amount:
         if final_string:
@@ -44,6 +49,3 @@ def stock_list(listOfArt, listOfCat):
 
     # return final_string
     print(final_string)
-
-
-stock_list(L1, cat)
