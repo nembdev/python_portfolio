@@ -17,4 +17,4 @@ Using Pandas, NumPy, and Seaborn.
 
 ## [Code](https://github.com/nembdev/python_portfolio/blob/main/Data%20Analysis%20Projects/European%20Ski%20Resorts(Pandas)/European%20Ski%20Resorts%20ll.ipynb)
 
-## [Nbviewer](https://nbviewer.org/github/nembdev/python_portfolio/blob/main/Data%20Analysis%20Projects/European%20Ski%20Resorts%28Pandas%29/European%20Ski%20Resorts%20ll%20-%20NumPy%20Examples.ipynb)
+## [Nbviewer](https://nbviewer.org/github/nembdev/python_portfolio/blob/main/Data%20Analysis%20Projects/European%20Ski%20Resorts%28Pandas%29/European%20Ski%20Resorts%20ll.ipynb)
