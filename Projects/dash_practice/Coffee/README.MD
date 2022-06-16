@@ -1,4 +1,4 @@
-# An Dashboard Demo
+# A Dashboard Demo
 
 ## Tools
 * Plotly
