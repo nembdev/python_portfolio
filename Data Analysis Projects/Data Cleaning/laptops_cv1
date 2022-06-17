@@ -1,4 +1,4 @@
-,manufacturer,model_name,category,screen_size,screen,cpu,ram_gb,storage,gpu,operating_system,operating_system_version,weight_kg,price_euros,cpu_manufacturer,gpu_manufacturer,os_version
+,manufacturer,model_name,category,screen_size,screen,cpu,ram_gb,_storage,gpu,operating_system,operating_system_version,weight_kg,price_euros,cpu_manufacturer,gpu_manufacturer,os_version
 0,Apple,MacBook Pro,Ultrabook,"13.3""",IPS Panel Retina Display 2560x1600,Intel Core i5 2.3GHz,8,128GB SSD,Intel Iris Plus Graphics 640,macOS,,1.37,"1339,69",Intel,Intel,X
 1,Apple,Macbook Air,Ultrabook,"13.3""",1440x900,Intel Core i5 1.8GHz,8,128GB Flash Storage,Intel HD Graphics 6000,macOS,,1.34,"898,94",Intel,Intel,X
 2,HP,250 G6,Notebook,"15.6""",Full HD 1920x1080,Intel Core i5 7200U 2.5GHz,8,256GB SSD,Intel HD Graphics 620,No OS,,1.86,"575,00",Intel,Intel,Version Unknown
