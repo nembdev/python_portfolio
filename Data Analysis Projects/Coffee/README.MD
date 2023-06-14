@@ -23,4 +23,4 @@ Our client, a fictional coffee chain in New York, has asked us to take a look at
 
 ## [Code](https://github.com/nembdev/python_portfolio/blob/main/Data%20Analysis%20Projects/Coffee/Coffee%20Shop%20Analysis-Code.ipynb)
 
-## [Nbviewer](https://nbviewer.org/github/nembdev/python_portfolio/blob/main/Data%20Analysis%20Projects/Coffee/nbviewer%20display%20code/Coffee%20Shop%20Analysis-Display.ipynb)
+## [Nbviewer](https://nbviewer.org/github/nembdev/python_portfolio/blob/main/Data%20Analysis%20Projects/Coffee/Coffee%20Shop%20Analysis-Code.ipynb)
