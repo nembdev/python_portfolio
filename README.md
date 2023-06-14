@@ -2,7 +2,7 @@
 
 [Data Analysis Projects](https://github.com/nembdev/python_portfolio/tree/main/Data%20Analysis%20Projects)
 
-* [Coffee Shop Analysis](https://nbviewer.org/github/nembdev/python_portfolio/blob/main/Data%20Analysis%20Projects/Coffee/nbviewer%20display%20code/Coffee%20Shop%20Analysis-Display.ipynb)
+* [Coffee Shop Analysis](https://nbviewer.org/github/nembdev/python_portfolio/blob/main/Data%20Analysis%20Projects/Coffee/Coffee%20Shop%20Analysis-Code.ipynb)
 
 * [Coffee Dashboard Demo Code](https://github.com/nembdev/python_portfolio/tree/main/Projects/dash_practice/Coffee)
 
